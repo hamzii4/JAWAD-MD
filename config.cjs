@@ -4,8 +4,6 @@ require("dotenv").config();
 
 const config = {
   SESSION_ID: process.env.SESSION_ID || "Your Session Id",
-  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "Your-Heroku-App-Name",
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "Your-Heroku-API-Key",
   PREFIX: process.env.PREFIX || '.',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
