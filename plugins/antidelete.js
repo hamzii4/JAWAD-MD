@@ -1,6 +1,6 @@
 import { downloadMediaMessage } from '@whiskeysockets/baileys';
 import fs from 'fs';
-import config from '../../config.cjs'; // Ensure this contains the owner's number
+import config from '../config.cjs'; // Ensure this contains the owner's number
 
 const AntiDeleteCommand = async (m, Matrix) => {
     // Command Handling for Anti-Delete Toggle
