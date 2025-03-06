@@ -1,4 +1,4 @@
-import { dBinary } from '../../lib/binary.cjs';
+import { dBinary } from '../lib/binary.cjs';
 import config from '../config.cjs';
 
 const dbinary = async (m, gss) => {
