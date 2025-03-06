@@ -21,15 +21,7 @@
       "required": true,
       "value": "true"
     },
-    "HEROKU_APP_NAME": {
-      "description": "Your Heroku app name",
-      "required": true
-    },
-    "HEROKU_API_KEY": {
-      "description": "Your Heroku API key to update bot",
-      "required": true
-    },
-    "AUTO_STATUS_SEEN": {
+  "AUTO_STATUS_SEEN": {
       "description": "make it true if you want bot to view status",
       "required": false,
       "value": "true"
